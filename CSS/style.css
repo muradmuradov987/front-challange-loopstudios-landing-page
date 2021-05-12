@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*font-family: 'Josefin Sans', sans-serif;*/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Alata', sans-serif;
+    outline: none;
+}
+
+header {
+    width: 100%;
+    height: 800px;
+    background-image: url(../Images/desktop/image-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+nav {
+    width: 1100px;
+    margin-top: 60px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 30px;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+}
+
+nav ul li:after {
+    transition: .2s;
+    background: white;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+}
+
+nav ul li:hover:after {
+    width: 100%;
+}
+
+.text-div {
+    margin-top: 200px;
+    padding: 50px;
+    width: 650px;
+    border: 3px solid white;
+}
+
+.text-div p {
+    color: white;
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.toggle-menu {
+    display: none;
+}
+
+main {
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.about-us-section {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url(../Images/desktop/image-interactive.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+.about-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 47%;
+    padding: 50px 50px 0px;
+    background-color: white;
+}
+
+.about-text .head-text {
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+.about-text .p {
+    color: hsl(0, 0%, 55%);
+}
+
+.gallery {
+    margin-bottom: 150px;
+}
+
+.gallery-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.gallery-nav p {
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.gallery-nav button {
+    padding: 10px 40px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.gallery-nav button:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn {
+    display: none;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.row1 div {
+    width: 250px;
+    height: 450px;
+    position: relative;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row1 p {
+    font-size: 30px;
+    font-weight: 300;
+    padding: 30px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top, rgb(15, 0, 0) 45%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.img-1 {
+    background-image: url(../Images/desktop/image-deep-earth.jpg);
+}
+
+.img-2 {
+    background-image: url(../Images/desktop/image-night-arcade.jpg);
+}
+
+.img-3 {
+    background-image: url(../Images/desktop/image-soccer-team.jpg);
+}
+
+.img-4 {
+    background-image: url(../Images/desktop/image-grid.jpg);
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2 div {
+    width: 250px;
+    height: 450px;
+    position: relative;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row2 p {
+    font-size: 30px;
+    font-weight: 300;
+    padding: 30px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top, rgb(15, 0, 0) 45%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.img-5 {
+    background-image: url(../Images/desktop/image-from-above.jpg);
+}
+
+.img-6 {
+    background-image: url(../Images/desktop/image-pocket-borealis.jpg);
+}
+
+.img-7 {
+    background-image: url(../Images/desktop/image-curiosity.jpg);
+}
+
+.img-8 {
+    background-image: url(../Images/desktop/image-fisheye.jpg);
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+.footer-info {
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 30px 0px;
+}
+
+.footer-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav ul li {
+    margin-right: 30px;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer-nav ul li:after {
+    transition: all ease-in-out .2s;
+    background: none repeat scroll 0 0 white;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+}
+
+.footer-nav ul li:hover:after {
+    width: 100%;
+}
+
+.footer-nav .logo {
+    margin-bottom: 20px;
+}
+
+.network {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.network i {
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.social-networks p {
+    color: hsl(0, 0%, 55%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.network i:after {
+    transition: all ease-in-out .2s;
+    background: none repeat scroll 0 0 white;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+}
+
+.network i:hover:after {
+    width: 100%;
+}

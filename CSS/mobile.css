@@ -1,0 +1,251 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/desktop/image-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+nav {
+    width: 100%;
+    padding: 50px 20px;
+    margin-top: 0px;
+    position: relative;
+}
+
+nav ul {
+    display: none;
+}
+
+.text-div {
+    margin-top: 50%;
+    padding: 30px;
+    width: 100%;
+}
+
+.text-div p {
+    font-size: 30px;
+}
+
+.toggle-menu {
+    display: block;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.active .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.active .bar2 {
+    opacity: 0;
+}
+
+.active .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.active .nav-bar {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 50px 20px;
+    display: flex;
+    align-items: flex-start;
+    background-color: black;
+}
+
+.active .nav-bar ul {
+    display: block;
+    margin-top: 50px;
+}
+
+.active .nav-bar ul li {
+    font-size: 30px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 100%;
+    padding: 50px 20px 5px 20px;
+    margin-bottom: 10px;
+}
+
+.about-us-section {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url(../Images/mobile/image-interactive.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0px;
+}
+
+.about-text {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.about-text .head-text {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.gallery-section {
+    margin-top: 50px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.gallery-nav {
+    justify-content: center;
+}
+
+.gallery-nav p {
+    font-size: 30px;
+}
+
+.gallery-nav button {
+    display: none;
+}
+
+.row1 {
+    flex-direction: column;
+}
+
+.row1 div {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.row1 p {
+    padding: 15px;
+}
+
+.row2 p {
+    padding: 15px;
+}
+
+.row2 div {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.row2 {
+    flex-direction: column;
+}
+
+.img-1 {
+    background-image: url(../Images/mobile/image-deep-earth.jpg);
+}
+
+.img-2 {
+    background-image: url(../Images/mobile/image-night-arcade.jpg);
+}
+
+.img-3 {
+    background-image: url(../Images/mobile/image-soccer-team.jpg);
+}
+
+.img-4 {
+    background-image: url(../Images/mobile/image-grid.jpg);
+}
+
+.img-5 {
+    background-image: url(../Images/mobile/image-from-above.jpg);
+}
+
+.img-6 {
+    background-image: url(../Images/mobile/image-pocket-borealis.jpg);
+}
+
+.img-7 {
+    background-image: url(../Images/mobile/image-curiosity.jpg);
+}
+
+.img-8 {
+    background-image: url(../Images/mobile/image-fisheye.jpg);
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 40px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+    display: block;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.footer-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+}
+
+.footer-nav ul {
+    flex-direction: column;
+}
+
+.footer-nav ul li {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+.network {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.network i {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.social-networks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
